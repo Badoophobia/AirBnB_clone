@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+@media (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 700px;
+    }
+}
+  
+@media (max-width: 425px) {
+    .container {
+      max-width: 400px;
+    }
+}
